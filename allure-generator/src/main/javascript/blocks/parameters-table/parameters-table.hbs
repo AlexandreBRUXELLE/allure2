@@ -2,8 +2,8 @@
     <div class="parameters-table">
         {{#each parameters}}
             <div class="{{b "parameters-table" "row"}}">
-                <div class="{{b "parameters-table" "cell" name=true}} line-ellipsis">{{name}}</div>
-                <div class="{{b "parameters-table" "cell" value=true}} line-ellipsis">{{value}}</div>
+                <div class="{{b "parameters-table" "cell" name=true}} line-ellipsis">{{name}}:</div>
+                <div class="{{b "parameters-table" "cell" value=true}} line-ellipsis"><pre class="line-ellipsis">{{value}}</pre></div>
             </div>
         {{/each}}
     </div>
